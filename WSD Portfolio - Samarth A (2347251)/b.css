@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax-sec {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .sec1 {
+    background: url('c.png') center/cover fixed;
+    }
+  
+  .sec2 {
+    background: url('java2.png') center/cover fixed;
+  }
+  
+  .sec3 {
+    background: url('python.png') center/cover fixed;
+  }
+  .sec1 h1 {
+    font-size: 3rem;
+  }
+  
+  .sec2 h2,
+  .sec3 h2 {
+    font-size: 2.5rem;
+  }
+  
+  .sec2 p,
+  .sec3 p {
+    font-size: 1.2rem;
+  }
+  

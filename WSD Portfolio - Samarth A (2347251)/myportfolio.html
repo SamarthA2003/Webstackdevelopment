@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+     <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Samarth A</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="parallax.html">programming</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="form.html">registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skill.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="heromodal.html">Hero</a>
+        </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+</nav>
+
+</div>
+<!---for image in portfolio-->
+<div id="color1">
+  <div class="avatar">
+    <img src="portfoliopro.gif" width="300px" height="300px">
+  </div>
+</div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Samarth A</h1>
+    <p>Im currently Studying MCA in Christ(Deemed To Be University)</p>
+  </div>
+</div>
+</div>
+<!------Modal Page-->
+<center><button id="myBtn">click me</button></center>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Hi, Welcome to My Portfolio Website</p>
+  </div>
+
+</div>
+
+<script>
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<!--------section------->
+<section id="project">
+  <div class="container text-center">
+    <h1 class="title">My Projects</h1>
+    <div class="row text-center">
+      <div class="col-md-4 project">
+        <img src="onlineshopping.gif" class="project-image">
+        <h4>Online Shopping</h4>
+        <button type="button" class="btn btn-primary"><a href="project.html"></a>see project</button>
+      </div>
+      <div class="col-md-4 project">
+        <img src="hotel.gif" class="project-image">
+        <h4>Hotel Menu and Billing System</h4>
+        <button type="button" class="btn btn-primary">See Project</button>
+      </div>
+      <div class="col-md-4 project">
+        <img src="bank.gif" class="project-image">
+        <h4>Bank Transaction System</h4>
+        <button type="button" class="btn btn-primary">See Project</button>
+      </div>
+    </div>
+  </div>
+</section><br>
+
+
+<!--------Footer Tag-------->
+<footer>
+  <div class="foo">
+  <h5>Contact Info</h5>
+  <p>Email Id: samartha@gmail.com</p>
+  <p>Mobile No: 1234567890</p>
+  <p>Address: S.G Palya, Diary Circle, Bengaluru - 560026</p>
+  <h6> follow me on </h6>
+   <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+   <a href="https://instagram.com/samarth._.gowda_?igshid=MzNINGNkZWQ4Mg" class="instagram"><i class="fab fa-instagram"></i></a>
+   <a href="https://www.facebook.com/samarth.gowda.1675" class="facebook"><i class="fab fa-facebook"></i></a>
+   <a href="https://www.linkedin.com/in/samarth-a-aa042423a" class="linkedid"><i class="fab fa-linkedin"></i></a>
+   <a href="https://github.com/SamarthA24" class="github"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
