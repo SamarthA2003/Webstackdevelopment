@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ecommerce.dtd" type="application/xml-dtd"?>
+<products>
+    <product id="A12345">
+        <name>Iphone</name>
+        <price>$500</price>
+        <quantity>20</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A09876">
+        <name>MacBook Air</name>
+        <price>$500</price>
+        <quantity>10</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A45678">
+        <name>Samsung M31</name>
+        <price>$351</price>
+        <quantity>900</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A87654">
+        <name>Sony Camera</name>
+        <price>$500</price>
+        <quantity>500</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A45637">
+        <name>MacBook Pro</name>
+        <price>$300</price>
+        <quantity>300</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A67667">
+        <name>HP 15 Laptop</name>
+        <price>$500</price>
+        <quantity>400</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A87765">
+        <name>Asus Notebook</name>
+        <price>$400</price>
+        <quantity>200</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A00024">
+        <name>Redmi Notebook</name>
+        <price>$500</price>
+        <quantity>120</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A76543">
+        <name>Samsung Tab</name>
+        <price>$460</price>
+        <quantity>700</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A99552">
+        <name>Ipad</name>
+        <price>$460</price>
+        <quantity>100</quantity>
+        <category value="Electronics"></category>
+    </product>
+    <product id="A55645">
+        <name>Arrow Shirt</name>
+        <price>$134</price>
+        <quantity>234</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A34565">
+        <name>US Polo Pant</name>
+        <price>$342</price>
+        <quantity>567</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A22287">
+        <name>Louis Vuitton pant</name>
+        <price>$467</price>
+        <quantity>100</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A72894">
+        <name>Van Heusen pant</name>
+        <price>$400</price>
+        <quantity>700</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A89765">
+        <name>Crocodile tshirt</name>
+        <price>$400</price>
+        <quantity>200</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A61067">
+        <name>Allen Solly</name>
+        <price>$300</price>
+        <quantity>100</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A00001">
+        <name>Calvin klein Jeans</name>
+        <price>$300</price>
+        <quantity>350</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A55444">
+        <name>Louis Philippe Jeans</name>
+        <price>$400</price>
+        <quantity>200</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A22222">
+        <name>Park Avenue</name>
+        <price>$400</price>
+        <quantity>900</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A89898">
+        <name>Jack and Jones</name>
+        <price>$190</price>
+        <quantity>200</quantity>
+        <category value="Clothing"></category>
+    </product>
+    <product id="A65432">
+        <name>Story Book</name>
+        <price>$10</price>
+        <quantity>300</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A87645">
+        <name>Business for Economics</name>
+        <price>$90</price>
+        <quantity>255</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A66544">
+        <name>Micro Economics</name>
+        <price>$167</price>
+        <quantity>400</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A99332">
+        <name>Computer Science and Human Intelligence</name>
+        <price>$465</price>
+        <quantity>20</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A77555">
+        <name>Artifical Intelligence for Programming</name>
+        <price>$156</price>
+        <quantity>134</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A54354">
+        <name>Programming in Java</name>
+        <price>$40</price>
+        <quantity>300</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A67676">
+        <name>Advance Data Communication and Secure Systems</name>
+        <price>$390</price>
+        <quantity>29</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A00441">
+        <name>CyberSecurity</name>
+        <price>$100</price>
+        <quantity>40</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A81054">
+        <name>Computer Intelligence</name>
+        <price>$304</price>
+        <quantity>38</quantity>
+        <category value="Books"></category>
+    </product>
+    <product id="A38373">
+        <name>Theory of Computation</name>
+        <price>$100</price>
+        <quantity>400</quantity>
+        <category value="Books"></category>
+    </product>
+</products>
