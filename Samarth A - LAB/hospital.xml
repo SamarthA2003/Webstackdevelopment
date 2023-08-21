@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="hospital.dtd" type="application/xml-dtd"?>
+<hospital>
+    <patient id="C1234">
+        <name>Varun</name>
+        <dob>2002-09-22</dob>
+        <gender>Male</gender>
+        <department>Cardiology</department>
+        <room>101</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>10000</bill_amt>
+    </patient>
+    <patient id="O3446">
+        <name>Madhu Kumar</name>
+        <dob>2002-05-25</dob>
+        <gender>Male</gender>
+        <department>Orthopedic</department>
+        <room>809</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>2000</bill_amt>
+    </patient>
+    <patient id="C8976">
+        <name>Tanushree</name>
+        <dob>2002-08-14</dob>
+        <gender>Female</gender>
+        <department>Cardiology</department>
+        <room>573</room>
+        <is_admitted>False</is_admitted>
+        <bill_amt>3000</bill_amt>
+    </patient>
+    <patient id="C9087">
+        <name>Gayatri</name>
+        <dob>2001-05-01</dob>
+        <gender>Female</gender>
+        <department>Cardiology</department>
+        <room>009</room>
+        <is_admitted>False</is_admitted>
+        <bill_amt>50000</bill_amt>
+    </patient>
+    <patient id="G1234">
+        <name>Rohan</name>
+        <dob>2002-02-22</dob>
+        <gender>Male</gender>
+        <department>General</department>
+        <room>687</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>56000</bill_amt>
+    </patient>
+    <patient id="G45432">
+        <name>Divya</name>
+        <dob>1999-12-31</dob>
+        <gender>Female</gender>
+        <department>General</department>
+        <room>645</room>
+        <is_admitted>False</is_admitted>
+        <bill_amt>700000</bill_amt>
+    </patient>
+    <patient id="D3458">
+        <name>Deepthi</name>
+        <dob>1993-12-31</dob>
+        <gender>Female</gender>
+        <department>Dental</department>
+        <room>254</room>
+        <is_admitted>False</is_admitted>
+        <bill_amt>6000</bill_amt>
+    </patient>
+    <patient id="O3543">
+        <name>Alex</name>
+        <dob>1993-02-25</dob>
+        <gender>Male</gender>
+        <department>Orthopedic</department>
+        <room>265</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>40000</bill_amt>
+    </patient>
+    <patient id="O5643">
+        <name>Alexander</name>
+        <dob>1993-02-28</dob>
+        <gender>Male</gender>
+        <department>Orthopedic</department>
+        <room>289</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>67000</bill_amt>
+    </patient>
+    <patient id="C6753">
+        <name>Nirmal</name>
+        <dob>1993-02-22</dob>
+        <gender>Male</gender>
+        <department>Cardiology</department>
+        <room>786</room>
+        <is_admitted>True</is_admitted>
+        <bill_amt>100000</bill_amt>
+    </patient>
+</hospital>

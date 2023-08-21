@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT hospital (patient+)>
+<!ELEMENT patient (name, dob, gender, department, room, is_admitted, bill_amt)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT room (#PCDATA)>
+<!ELEMENT is_admitted (#PCDATA)>
+<!ELEMENT bill_amt (#PCDATA)>
+<!ATTLIST patient id CDATA #REQUIRED>
