@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ShopSmart.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>MacBook</name>
+        <price>900</price>
+        <description>MacBook Air with m1 chip and Space grey color</description>
+        <shop>Iplanet</shop>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Samsung Mobile</name>
+        <price>500</price>
+        <description>Samsung M31 mobile with 6gb ram and 128gb rom</description>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Ipad</name>
+        <price>500</price>
+        <description>Ipad with m2 chip, 1 TB space, balck color</description>
+    </product>
+    <product>
+        <id>4</id>
+        <name>Canon</name>
+        <price>1000</price>
+        <description>A camera with CMOS sensor, Up to 6.5 frames per second with eye detection</description>
+    </product>
+    <product>
+        <id>5</id>
+        <name>HP 15</name>
+        <price>700</price>
+        <description>Laptop with sliver color and 1TB space</description>
+    </product>
+</products>
